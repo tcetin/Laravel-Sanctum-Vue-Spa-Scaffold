@@ -12,14 +12,14 @@
 
 
                     <div class="mt-2">
-                        <p class="text-red-700 text-xl">Kaydı silme istediğinize emin misiniz?</p>
+                        <p class="text-red-700 text-xl">Are you sure?</p>
 
                         <div class="divide-y-2 divide-gray-400">
                             <div></div>
                             <div class="flex items-center justify-between w-full space-x-12 mt-4 pt-4">
                                 <button type="button" @click="closeModal"
                                         class="md:text-red-600 border-2 border-red-600  rounded hover:border-gray-500 p-2 w-6/12 font-semibold space-x-2 flex items-center justify-center">
-                                    <span>İptal</span>
+                                    <span>cancel</span>
 
                                 </button>
                                 <button type="button"
@@ -27,7 +27,7 @@
                                         class="md:text-green-600 border-2 border-gray-200  rounded hover:border-gray-500 p-2 w-full font-semibold space-x-2 flex items-center justify-center">
                                     <i class="fas fa-circle-notch fa-spin text-blue-600" v-if="loading"></i>
                                     <i class="far fa-trash-alt" style="font-size: 18px;"></i>
-                                    <span>Sil</span>
+                                    <span>Delete</span>
 
                                 </button>
 
@@ -73,9 +73,9 @@ export default {
                     this.loading = false;
                     this.error = "";
                     Swal.fire({
-                        title: 'İşlem Başarılı',
+                        title: 'Success',
                         icon: 'success',
-                        confirmButtonText: 'Tamam'
+                        confirmButtonText: 'Ok'
                     });
                 },
                 error => {
