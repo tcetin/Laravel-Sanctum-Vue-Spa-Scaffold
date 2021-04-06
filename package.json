@@ -10,9 +10,39 @@
         "production": "mix --production"
     },
     "devDependencies": {
+        "postcss": "^8.1.14",
+        "@tailwindcss/forms": "^0.2.1",
+        "alpinejs": "^2.7.3",
+        "autoprefixer": "^10.2.5",
         "axios": "^0.21",
+        "laravel-echo": "^1.10.0",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
-        "postcss": "^8.1.14"
+        "postcss-import": "^12.0.1",
+        "resolve-url-loader": "^3.1.2",
+        "sass": "^1.32.7",
+        "sass-loader": "^8.0.2",
+        "tailwindcss": "^2.0.3",
+        "ts-loader": "^8.0.17",
+        "vue-loader": "^15.9.6",
+        "vue-template-compiler": "^2.6.12"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.2",
+        "font-awesome": "^4.7.0",
+        "jw-paginate": "^1.0.4",
+        "moment": "^2.29.1",
+        "rxjs": "^6.6.3",
+        "sweetalert2": "^10.15.1",
+        "vue": "^2.6.12",
+        "vue-confetti": "^2.2.1",
+        "vue-currency-input": "^1.22.6",
+        "vue-router": "^3.5.1",
+        "vue-swatches": "^2.1.1",
+        "vue2-editor": "^2.10.2",
+        "vuedraggable": "^2.24.3",
+        "vuelidate": "^0.7.6",
+        "vuetable-2": "^2.0.0-beta.4",
+        "vuex": "^3.6.2"
     }
 }

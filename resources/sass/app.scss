@@ -1,0 +1,63 @@
+@import '~@fortawesome/fontawesome-free/css/fontawesome';
+@import '~@fortawesome/fontawesome-free/css/regular';
+@import '~@fortawesome/fontawesome-free/css/solid';
+@import '~@fortawesome/fontawesome-free/css/brands';
+
+a {
+    text-decoration: none;
+}
+
+aside {
+    background-color: #dfe6ed;
+}
+
+.divide-custom {
+    border-color: #9eadba;
+}
+
+ul.list-reset > li {
+    font-size: 14pt;
+    cursor: pointer;
+}
+
+.sidebar-active-class {
+    @extend .border-b-2 !optional;
+    @extend .border-blue-600 !optional;
+    @extend .text-blue-600 !optional;
+
+
+    a {
+        & > i, span {
+            color: rgba(59, 130, 246, var(--tw-text-opacity));
+        }
+    }
+}
+
+.active-border-color {
+    border-left: 3px solid rgba(59, 130, 246, var(--tw-text-opacity));
+}
+
+  .style-chooser .vs__search::placeholder,
+  .style-chooser .vs__dropdown-toggle,
+  .style-chooser .vs__dropdown-menu {
+    background: #fff;
+    width: 100%;
+  }
+
+  .style-chooser .vs__clear,
+  .style-chooser .vs__open-indicator {
+    fill: #394066;
+  }
+
+
+
+  .style-chooser .vs__search::placeholder{
+    font-weight: 600;
+  }
+
+  .style-chooser .vs__search{
+    line-height: 1.8;
+    z-index: inherit;
+  }
+
+  
