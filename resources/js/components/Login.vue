@@ -85,12 +85,6 @@
     <div class="md:mx-auto text-sm mb-10 text-gray-400">
       <p>
         Copyright &copy; {{ getYear() }}
-        <a
-          href="https://www.mdasocial.com/"
-          target="_blank"
-          class="no-underline hover:underline"
-          >MdaSocial</a
-        >
       </p>
     </div>
   </div>
