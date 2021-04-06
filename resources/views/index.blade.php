@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Mda Twitter Bot</title>
+    <title>Scaffold</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="/css/app.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/png">
